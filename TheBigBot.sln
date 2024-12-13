@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBigBot", "TheBigBot\TheBigBot.csproj", "{893D00D2-5BF4-4108-8C4C-5668CC060CAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheBigBot", "TheBigBot\TheBigBot.csproj", "{893D00D2-5BF4-4108-8C4C-5668CC060CAC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{4FD6EFB1-BD23-4940-AF4C-7E0113B0A685}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharky", "..\Sharky\Sharky\Sharky.csproj", "{FA3104EA-8F71-4C63-9305-154BB68ACB21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharky", "Sharky\Sharky\Sharky.csproj", "{76F4FFA4-D857-460B-B481-340B82F233F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2ClientProtocol", "..\Sharky\S2ClientProtocol\S2ClientProtocol.csproj", "{08F9D552-5127-46EB-9F4D-9BDD7192D9B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S2ClientProtocol", "Sharky\S2ClientProtocol\S2ClientProtocol.csproj", "{275481C2-DA93-42B7-83DF-C30E4F669665}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,21 +21,21 @@ Global
 		{893D00D2-5BF4-4108-8C4C-5668CC060CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{893D00D2-5BF4-4108-8C4C-5668CC060CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{893D00D2-5BF4-4108-8C4C-5668CC060CAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA3104EA-8F71-4C63-9305-154BB68ACB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA3104EA-8F71-4C63-9305-154BB68ACB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA3104EA-8F71-4C63-9305-154BB68ACB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA3104EA-8F71-4C63-9305-154BB68ACB21}.Release|Any CPU.Build.0 = Release|Any CPU
-		{08F9D552-5127-46EB-9F4D-9BDD7192D9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08F9D552-5127-46EB-9F4D-9BDD7192D9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08F9D552-5127-46EB-9F4D-9BDD7192D9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08F9D552-5127-46EB-9F4D-9BDD7192D9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F4FFA4-D857-460B-B481-340B82F233F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F4FFA4-D857-460B-B481-340B82F233F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F4FFA4-D857-460B-B481-340B82F233F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F4FFA4-D857-460B-B481-340B82F233F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275481C2-DA93-42B7-83DF-C30E4F669665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275481C2-DA93-42B7-83DF-C30E4F669665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275481C2-DA93-42B7-83DF-C30E4F669665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275481C2-DA93-42B7-83DF-C30E4F669665}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{FA3104EA-8F71-4C63-9305-154BB68ACB21} = {4FD6EFB1-BD23-4940-AF4C-7E0113B0A685}
-		{08F9D552-5127-46EB-9F4D-9BDD7192D9B2} = {4FD6EFB1-BD23-4940-AF4C-7E0113B0A685}
+		{76F4FFA4-D857-460B-B481-340B82F233F3} = {4FD6EFB1-BD23-4940-AF4C-7E0113B0A685}
+		{275481C2-DA93-42B7-83DF-C30E4F669665} = {4FD6EFB1-BD23-4940-AF4C-7E0113B0A685}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1176078-4DA5-4A46-B6B9-F7855EF07507}

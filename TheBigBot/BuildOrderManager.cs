@@ -1,17 +1,17 @@
 ﻿using SC2APIProtocol;
 using Sharky.Managers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Shark.Managers
+
+namespace TheBigBot
 {
-	public class BuildOrderManager : SharkyManager
+	public class BuildOrderManager : TheBigBotManager
 	{
 		public override bool SkipFrame { get => false; }
 
+		public BuildOrderManager(Mediator mediator) : base(mediator) 
+		{
+			
+		}
 
 		public override void OnStart(ResponseGameInfo gameInfo, ResponseData data, ResponsePing pingResponse, ResponseObservation observation, uint playerId, string opponentId)
 		{
@@ -35,6 +35,8 @@ namespace Shark.Managers
 				System.Console.WriteLine("OnEnd Observation null");
 			}
 		}
+
+
 
 	}
 }
